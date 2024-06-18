@@ -261,6 +261,50 @@
 
 # print(num_array)
 "-------------------------------------"
+# https://leetcode.com/problems/shuffle-the-array/
+# nums = [2,5,1,3,4,7]
+# n = 3
+# # index=nums.index()
+# final = []
+# fh = (nums[0:n])
+# sh = (nums[n:(2*n)])
+#
+# for i in range(n):
+#     final.append(fh[i])
+#     final.append(sh[i])
+#
+# print(final)
+"-------------------------------------"
+# https://leetcode.com/problems/palindrome-number/description/
+
+# x = 121
+# def reverse(number):
+#     number == int(str(number)[::-1])
+#     return (number)
+#
+# print(reverse(x))
+# UNSOLVED!
+
+"-------------------------------------"
+# https://leetcode.com/problems/length-of-last-word/description/
+#
+# s = "Hello World"
+# words = s.split()
+# print(len(words[-1]))
+"-------------------------------------"
+# https://leetcode.com/problems/longest-common-prefix/description/
+
+# strs = ["flower","flow","flight"]
+# sort_strs = sorted(strs)
+# for word in sort_strs:
+#     pref = word[0]+word[1]
+# if pref == pref:
+#     print(pref)
+# else:
+#     print("")
+
+
+
 
 
 
