@@ -277,14 +277,10 @@
 "-------------------------------------"
 # https://leetcode.com/problems/palindrome-number/description/
 
-# x = 121
-# def reverse(number):
-#     number == int(str(number)[::-1])
-#     return (number)
-#
-# print(reverse(x))
-# UNSOLVED!
-
+# x = 123
+# number_str = str(x)
+# reversed_str = number_str[::-1]
+# print(reversed_str)
 "-------------------------------------"
 # https://leetcode.com/problems/length-of-last-word/description/
 #
@@ -293,17 +289,44 @@
 # print(len(words[-1]))
 "-------------------------------------"
 # https://leetcode.com/problems/longest-common-prefix/description/
-
-# strs = ["flower","flow","flight"]
+#
+# strs = ["flower", "flow", "flight"]
+#
 # sort_strs = sorted(strs)
-# for word in sort_strs:
-#     pref = word[0]+word[1]
-# if pref == pref:
-#     print(pref)
-# else:
-#     print("")
-
-
+# prefix = sort_strs[0]
+# while True:
+#     for word in sort_strs:
+#         if not word.startswith(prefix):
+#             prefix = prefix[:-1]
+#             break
+#     else:
+#         print("")
+#         break
+#
+# print(prefix)
+"-------------------------------------"
+# # https://leetcode.com/problems/roman-to-integer/description/
+#
+# # Symbol       Value
+# # I             1
+# # V             5
+# # X             10
+# # L             50
+# # C             100
+# # D             500
+# # M             1000
+#
+# # s = "LVIII" WORKING!
+# s = "MCMXCIV" # Not working
+#
+# roman_dict = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+# listed_s = list(s)
+#
+# counter = 0
+# for ch in listed_s:
+#     counter += roman_dict[ch]
+#
+# print(counter)
 
 
 
