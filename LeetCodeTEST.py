@@ -327,7 +327,25 @@
 #     counter += roman_dict[ch]
 #
 # print(counter)
-
+"-------------------------------------"
+# # https://leetcode.com/problems/plus-one/description/
+#
+# digits = [1, 2, 3]
+# my_str = ""
+# int_list = []
+#
+# for num in digits:
+#     my_str += str(num)
+#
+# my_int = int(my_str) + 1
+# my_str = str(my_int)
+#
+# for each in my_str:
+#     int_list.append(int(each))
+#
+#
+# print(int_list)
+"-------------------------------------"
 
 
 
